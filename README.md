@@ -3,11 +3,21 @@ Functional programming is a paradigm that focuses on the construction of softwar
 
 ## FP is based on:
 
-Declarative programming
-Pure functions
-High order functions
-Referential transparency
-Immutability
+- Declarative programming:
+instructing a program on what needs to be done, instead of telling it how to do it.
+
+- Pure functions:
+A pure functions is a function that given a value is going to return the same result and it does not have side effects
+
+- High order functions:
+A high order function is a functions that could receive another functions as a parameter or a function that returns another function.
+
+- Referential transparency:
+
+
+- Immutability:
+It is a state in which a value cannot be mutate, 
+
 
 ## Thinking functionally
 
@@ -43,4 +53,4 @@ Each programming paradigm has its benefits, I'm going to talk about some program
 
 - Functional programming focuses on inmutable data, while OPP promote mutability through objects
 
-- Functional programming use declarative programming (instructing a program on what needs to be done, instead of telling it how to do it), meanwhile procedural programming is more imperative
+- Functional programming use declarative programming, meanwhile procedural programming is more imperative
