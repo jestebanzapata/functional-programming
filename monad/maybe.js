@@ -1,3 +1,5 @@
+import { add, duplicate } from "../utils/operations";
+
 // Maybe monad implementation
 class Maybe {
   constructor(value) {
@@ -17,13 +19,9 @@ class Maybe {
   }
 }
 
-const add = x => y => x + y;
+const result1 = Maybe.of(2).map(add(4)).flatMap(duplicate);
 
-const double = (value) => value*2;
-
-const result1 = Maybe.of(2).map(add(4)).flatMap(double);
-
-const result2 = Maybe.of(null).map(add(4)).flatMap(double);
+const result2 = Maybe.of(null).map(add(4)).flatMap(duplicate);
 
 console.log("result -> ", result1, result2);
 

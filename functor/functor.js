@@ -10,17 +10,9 @@ class Wrapper {
 
 }
 
-const add = (a) => {
-    return (b) => {
-        return a + b;
-    }    
-}
+const add = x => y => x + y;
 
-const divide = (a) => {
-    return (b) => {
-        return b / 2;
-    }    
-}
+const divide = a => b => a/b;
 
 const result = new Wrapper(5).map(add(25)).map(divide(2));
 console.log("Result -> ", result);

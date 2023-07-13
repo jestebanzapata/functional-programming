@@ -24,7 +24,7 @@ It is a state in which a value cannot be mutate,
 In order to start using functional programming you need to think in terms of pure operations, data that never mutates, functions with single responsability, this definitely reduce the potential for bugs and help to improve the readiness of the code. Understanding the core principles is important in order to reap the benefits functional programming brings to your code, which will guide you on the path to overcoming complexity.
 
 
-## Pogramming paradigms
+## Programming paradigms
 
 Each programming paradigm has its benefits, I'm going to talk about some programming paradigms: functional programming, procedural programming and object oriented programming.
 
